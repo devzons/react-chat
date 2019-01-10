@@ -31,7 +31,6 @@ class App extends Component {
     .then(currentUser => {
       this.currentUser = currentUser
       this.getRooms()
-      this.subscribeToRoom()
     })
     .catch(err => console.log('Error on connecting: ', err))
   }

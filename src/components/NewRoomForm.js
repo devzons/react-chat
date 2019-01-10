@@ -17,7 +17,7 @@ class NewRoomForm extends React.Component {
 
   render() {
     return(
-      <div className="new-roo-form">
+      <div className="new-room-form">
         <form onSubmit={this.handleSubmit}>
           <input 
             onChange={this.handleChange}
